@@ -1,11 +1,6 @@
-import logging
+from utils.logger import logger
 from abc import ABC, abstractmethod
 from typing import List
-
-# logger
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 
 # 1. SRP - Book 
 class Book:

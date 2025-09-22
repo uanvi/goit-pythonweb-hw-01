@@ -1,10 +1,5 @@
-import logging
 from abc import ABC, abstractmethod
-
-# logger
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
+from utils.logger import logger
 
 # 1. Abstract Vehicle
 class Vehicle(ABC):
